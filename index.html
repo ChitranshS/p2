@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='shortcut icon' type='image/x-icon' href='img/Favicon/logo.png' />
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+    @font-face{
+	font-family:quantify;
+	src:url('../fonts/Quantify.ttf');
+	font-style: normal;
+}
+ ]
+  iframe{
+        width: 100%;
+        height: 80vh;
+        padding-top: 10px;
+  }
+ p{
+   font-family: pt sans;
+ }
+ .updating{
+     font-family:pt sans;
+     color:white;
+ }
+ .updating:hover{
+   color:darkgray;
+ }
+.glitch {
+  position: relative;
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  font-family:quantify;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background:url(../img/parallax/3.jpg);
+  color: white;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch::before {
+  left: 7px;
+  text-shadow: 1px 0 red;
+  animation: glitch-effect 3s infinite linear alternate-reverse;
+}
+.glitch::after {
+  left: 3px;
+  text-shadow: -2px 0 red;
+  animation: glitch-effect 2s infinite linear alternate-reverse;
+}
+
+
+@-webkit-keyframes glitch-effect {
+  0% {
+    clip: rect(51px, 9999px, 87px, 0);
+  }
+  10% {
+    clip: rect(16px, 9999px, 61px, 0);
+  }
+  20% {
+    clip: rect(83px, 9999px, 90px, 0);
+  }
+  30% {
+    clip: rect(84px, 9999px, 80px, 0);
+  }
+    clip: rect(17px, 9999px, 23px, 0);
+  }
+  50% {
+    clip: rect(25px, 9999px, 21px, 0);
+  }
+  60% {
+    clip: rect(31px, 9999px, 28px, 0);
+  }
+  70% {
+    clip: rect(40px, 9999px, 1px, 0);
+  }
+  80% {
+    clip: rect(7px, 9999px, 96px, 0);
+  }
+  90% {
+    clip: rect(81px, 9999px, 88px, 0);
+  }
+  100% {
+    clip: rect(67px, 9999px, 70px, 0);
+  }
+}
+
+@keyframes glitch-effect {
+  0% {
+    clip: rect(51px, 9999px, 87px, 0);
+  }
+  10% {
+    clip: rect(16px, 9999px, 61px, 0);
+  }
+  20% {
+    clip: rect(83px, 9999px, 90px, 0);
+  }
+  30% {
+    clip: rect(84px, 9999px, 80px, 0);
+  }
+  40% {
+    clip: rect(17px, 9999px, 23px, 0);
+  }
+  50% {
+    clip: rect(25px, 9999px, 21px, 0);
+  }
+  60% {
+    clip: rect(31px, 9999px, 28px, 0);
+  }
+  70% {
+    clip: rect(40px, 9999px, 1px, 0);
+  }
+  80% {
+    clip: rect(7px, 9999px, 96px, 0);
+  }
+  90% {
+    clip: rect(81px, 9999px, 88px, 0);
+  }
+  100% {
+    clip: rect(67px, 9999px, 70px, 0);
+  }
+}
+
+
+.glitch_1 {
+  position: relative;
+  margin: 0 auto;
+  color:white;
+  font-size: 80px;
+  font-family:quantify;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+.glitch_1::before, .glitch_1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background:linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  color: black;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch_1::before {
+  left: 7px;
+  text-shadow: 1px 0 green;
+  animation: glitch-effect_1 3s infinite linear alternate-reverse;
+}
+.glitch_1::after {
+  left: 3px;
+  text-shadow: -1px 0 red;
+  animation: glitch-effect_1 2s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes glitch-effect_1 {
+  0% {
+    clip: rect(98px, 9999px, 16px, 0);
+  }
+  5% {
+    clip: rect(15px, 9999px, 32px, 0);
+  }
+  10% {
+    clip: rect(22px, 9999px, 80px, 0);
+  }
+  15% {
+    clip: rect(28px, 9999px, 70px, 0);
+  }
+  20% {
+    clip: rect(92px, 9999px, 37px, 0);
+  }
+  25% {
+    clip: rect(23px, 9999px, 22px, 0);
+  }
+  30% {
+    clip: rect(21px, 9999px, 67px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 99px, 0);
+  }
+  40% {
+    clip: rect(94px, 9999px, 49px, 0);
+  }
+  45% {
+    clip: rect(57px, 9999px, 9px, 0);
+  }
+  50% {
+    clip: rect(99px, 9999px, 57px, 0);
+  }
+  55% {
+    clip: rect(42px, 9999px, 14px, 0);
+  }
+  60% {
+    clip: rect(79px, 9999px, 81px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(3px, 9999px, 21px, 0);
+  }
+  75% {
+    clip: rect(94px, 9999px, 28px, 0);
+  }
+  80% {
+    clip: rect(11px, 9999px, 78px, 0);
+  }
+  85% {
+    clip: rect(65px, 9999px, 1px, 0);
+  }
+  90% {
+    clip: rect(74px, 9999px, 19px, 0);
+  }
+  95% {
+    clip: rect(94px, 9999px, 47px, 0);
+  }
+  100% {
+    clip: rect(54px, 9999px, 65px, 0);
+  }
+}
+
+@keyframes glitch-effect_1 {
+  0% {
+    clip: rect(98px, 9999px, 16px, 0);
+  }
+  5% {
+    clip: rect(15px, 9999px, 32px, 0);
+  }
+  10% {
+    clip: rect(22px, 9999px, 80px, 0);
+  }
+  15% {
+    clip: rect(28px, 9999px, 70px, 0);
+  }
+  20% {
+    clip: rect(92px, 9999px, 37px, 0);
+  }
+  25% {
+    clip: rect(23px, 9999px, 22px, 0);
+  }
+  30% {
+    clip: rect(21px, 9999px, 67px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 99px, 0);
+  }
+  40% {
+    clip: rect(94px, 9999px, 49px, 0);
+  }
+  45% {
+    clip: rect(57px, 9999px, 9px, 0);
+  }
+  50% {
+    clip: rect(99px, 9999px, 57px, 0);
+  }
+  55% {
+    clip: rect(42px, 9999px, 14px, 0);
+  }
+  60% {
+    clip: rect(79px, 9999px, 81px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(3px, 9999px, 21px, 0);
+  }
+  75% {
+    clip: rect(94px, 9999px, 28px, 0);
+  }
+  80% {
+    clip: rect(11px, 9999px, 78px, 0);
+  }
+  85% {
+    clip: rect(65px, 9999px, 1px, 0);
+  }
+  90% {
+    clip: rect(74px, 9999px, 19px, 0);
+  }
+  95% {
+    clip: rect(94px, 9999px, 47px, 0);
+  }
+  100% {
+    clip: rect(54px, 9999px, 65px, 0);
+  }
+}
+
+ 
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WARTEX || INVITING TECHSAVY MINDS</title>
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/slippry.css" rel="stylesheet"/>
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+  <!-- page loader -->
+  <div id="page-loader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container con1">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+        </div>
+        <div class="spinner-container con2">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+        </div>
+        <div class="spinner-container con3">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /page loader -->
+
+  <!-- Section: home slide -->
+  <section id="intro" class="home-slide text-light">
+    <ul id="wartex-slippry">
+      <li>
+        <div style=" background-size:cover;">
+          <div class="headimg">
+ 
+            <div id="app">
+              <div id="wrapper">
+                 
+                <h2 class="glitchh f1"  style=" top:10vh;" data-text="S.R.D.A.V PRESENTS">S.R.D.A.V PRESENTS </h2>
+
+                <h2 class="glitchh f1"  style=" top:20vh;" data-text="
+           INTRA WARTEX"> INTRA WARTEX</h2>
+              
+              </div>
+            </div>
+         
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- /Section: intro -->
+
+
+  <!-- Navigation -->
+  <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="site-logo">
+              <a href="index.html"><img src="img/Favicon/logo_1.png" alt="" /></a>
+            </div>
+          </div>
+
+
+          <div class="col-md-10">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#intro">Home</a></li>
+                 <li><a href="#works">Events</a></li>
+                 <li><a href="#parallax3">Updates</a></li>
+                <li><a href="#service">FAQs</a></li>
+               
+               
+
+                <li><a href="#contact">Contact</a></li>
+               <!-- <li class="dropdown nav-toggle">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="external" href="#">Sub </a></li>
+                    <li><a class="external" href="#">Sub menu</a></li>
+                  </ul>
+                </li> -->
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd45lMTQA2y1MvUqJzvg9zgvKW2hH9cskZqfnXapXk-dnWS1g/viewform?vc=0&c=0&w=1" style="color:#fe7a66;">Register</a></li>
+              </ul>
+            </div>
+            <!-- /.Navbar-collapse -->
+
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </nav>
+  </div>
+  <!-- /Section:Coutdown timer-->
+  <section id="service" class="home-section color-dark bg-white">
+    <div class="container margintop-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class=" glitchh h-bold f1" data-text="INTER WARTEX WEBSITE LIVE IN">INTER WARTEX WEBSITE LIVE IN</h2>
+              <div class="divider-header"></div>
+<div class="countdown"></div><br><br>
+<h2 class=" glitchh h-bold f1" data-text="GET NOTIFIED">GET NOTIFIED</h2>
+<center>
+<form id="contact-form">
+	<input class="notify" type="email" name="email" placeholder="Your Email Id" required>
+	<br>
+	<input class="notify-button" type="submit" value="Send">
+</form>	
+
+</center>
+		<script type="text/javascript">
+ 
+			const countdown = document.querySelector('.countdown');
+
+// Set Launch Date (ms)
+const launchDate = new Date('Sep 26, 2019 20:30:00').getTime();
+
+// Update every second
+const intvl = setInterval(() => {
+  // Get todays date and time (ms)
+  const now = new Date().getTime();
+
+  // Distance from now and the launch date (ms)
+  const distance = launchDate - now;
+
+  // Time calculation
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display result
+  countdown.innerHTML = `
+  <div>${days}<span><br>Days</span></div> 
+  <div>${hours}<span><br>Hours</span></div>
+  <div>${mins}<span><br>Minutes</span></div>
+  <div>${seconds}<span>Seconds</span></div>
+  `;
+
+  // If launch date is reached
+  if (distance < 0) {
+    // Stop countdown
+    clearInterval(intvl);
+    // Style and output text
+    countdown.style.color = '#17a2b8';
+    countdown.innerHTML = 'Launched!';
+  }
+}, 1000);
+
+		</script>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+   <!-- Section: parallax 1 -->
+   <section id="parallax3" class="home-section parallax text-light text-center" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="testimonialslide clearfix flexslider">
+            <ul class="slides">
+              <li style="quantify">
+             
+               <h2 class="glitchh f1" data-text="UPDATES">UPDATES</h2>  
+           
+                
+                <h4 ><a class="updating"href="https://docs.google.com/forms/d/e/1FAIpQLSd45lMTQA2y1MvUqJzvg9zgvKW2hH9cskZqfnXapXk-dnWS1g/viewform?vc=0&c=0&w=1"> >> Register Now!!!</a></h4>
+                <h4 ><a class="updating">>> All students who registered for events before 14th May are requested to  register again!</a></h4>
+                <h4 ><a class="updating">>> Students can participate in only one online and offline event</a></h4>
+                <h4 ><a class="updating">>> Links to online prelim submission are provided for events - Designers at Desks, Pho Edito, Movie Making, FlipGrid, 3-D Animations, Merge Cube and Up Vento. Make your submissions by 27<sup>th</sup> June 2019. Late entries will not be entertained.</a></h4>
+                <h4 ><a class="updating">>> Minecraft is an online event now. Participants are requested to recheck the rules and regulations in the event area.</a></h4>
+                <h4 ><a class="updating">>> Photography is now an event. Check "Capture the Moment" in event area</a></h4>
+                <h4 ><a class="updating">>> Event is to be held on 3<sup>rd</sup> October 2019.</a></h4>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Section: works -->
+  <section id="works" style="" class="home-section color-light text-center bg-black">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+                <h2 class="glitchh h-light" data-text="EVENTS">
+              EVENTS
+              </h2>
+              <div class="divider-header"></div>
+              <p>Show your ability at this opportunity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="wow bounceInUp" data-wow-delay="0.4s">
+            <div id="owl-works" class="owl-carousel">
+              <div class="item"><a href="1.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="1.html"><img src="img/works/1.jpg" class="img-responsive" alt="img" ><a href="1.html">Designers at Desks</a></a></div>
+              <div class="item"><a href="2.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="2.html"><img src="img/works/2.jpg" class="img-responsive " alt="img"><a href="2.html">Senior Programming</a></a></div>
+              <div class="item"><a href="3.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="3.html"><img src="img/works/3.jpg" class="img-responsive " alt="img"><a href="3.html">Pho Edito</a></a></div>
+              <div class="item"><a href="4.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="4.html"><img src="img/works/4.jpg" class="img-responsive " alt="img"><a href="4.html">Star Wars</a></a></div>
+              <div class="item"><a href="5.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="5.html"><img src="img/works/5.jpg" class="img-responsive " alt="img"><a href="5.html">Crypto Hunt</a></a></div>
+              <div class="item"><a href="6.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="6.html"><img src="img/works/6.jpg" class="img-responsive " alt="img"><a href="6.html">Brain Wars</a></a></div>
+              <div class="item"><a href="7.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="7.html"><img src="img/works/7.jpg" class="img-responsive " alt="img"><a href="7.html">3-D Animations</a></a></div>
+              <div class="item"><a href="8.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="8.html"><img src="img/works/8.jpg" class="img-responsive " alt="img"><a href="8.html">Flipgrid</a></a></div>
+              <div class="item"><a href="9.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="9.html"><img src="img/works/9.jpg" class="img-responsive " alt="img"><a href="9.html">Game A Thon</a></a></div>
+              <div class="item"><a href="10.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="10.html"><img src="img/works/10a.jpg" class="img-responsive " alt="img"><a href="10.html">Minecraft</a></a></div>
+              <div class="item"><a href="11.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="11.html"><img src="img/works/11a.jpg" class="img-responsive " alt="img"><a href="11.html">Up Vento</a></a></div>
+              <div class="item"><a href="12.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="12.html"><img src="img/works/12a.jpg" class="img-responsive " alt="img"><a href="12.html">Movie Making</a></a></div>
+              <div class="item"><a href="13.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="13.html"><img src="img/works/13a.jpg" class="img-responsive " alt="img"><a href="13.html">Merge Cube</a></a></div>
+              <div class="item"><a href="14.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="14.html"><img src="img/works/14a.jpg" class="img-responsive " alt="img"><a href="14.html">Brain Escape</a></a></div>
+              <div class="item"><a href="15.html" data-lightbox-gallery="gallery1" data-lightbox-hidpi="15.html"><img src="img/works/15.jpg" class="img-responsive " alt="img"><a href="15.html">Capture the Moment</a></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /Section: works -->
+        <!-- Section: parallax 3 -->
+        <section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-center text-uppercase">
+                  <h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s" ><div class="text-center" style="font-family:quantify;background-position:bottom;">SEE YOU ON 3<sup>rd</sup> OCTOBER 2019</div></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+  
+
+  <!-- Section: services -->
+  <section id="service" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class=" glitchh h-bold f1" data-text="FAQ's">FAQ's</h2>
+              <div class="divider-header"></div>
+              <p>Some frequently asked questions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="pe-7s-monitor pe-5x"></span>
+                </div>
+                <div class="service-desc">
+                  <p>
+                    Events like Pho-Edito,Web Tech and Upvento do not have prelims. 
+                   
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="pe-7s-camera pe-5x"></span>
+                </div>
+                <div class="service-desc">
+                  <p>
+                  Results will be announced on the website or the facebook page on the same day
+                    <br><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="pe-7s-note pe-5x"></span>
+                </div>
+                <div class="service-desc">
+                  <p>Last date of registration is 28<sup>th</sup> September.
+                    <br><br><br><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="pe-7s-phone pe-5x"></span>
+                </div>
+                <div class="service-desc">
+                  <p>
+                    It is a one day event<br> <br><br><br>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: services -->
+  
+  
+
+
+
+
+  <!-- Section: parallax 2 -->
+  <section id="parallax2" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
+    <div class="container align-items-center">
+      <div class="row appear stats">
+        <center>
+        <div class="col-md-3"> 
+          <div class="align-center color-white txt-shadow">
+            <div class="icon">
+              <i class="pe-7s-stopwatch pe-5x"></i>
+            </div>
+            <strong id="counter-coffee" class="number">16</strong><br />
+            <span class="text">Events</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="align-center color-white txt-shadow">
+            <div class="icon">
+              <i class="pe-7s-music pe-5x"></i>
+            </div>
+            <strong id="counter-music" class="number">46</strong><br />
+            <span class="text">Prizes</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="align-center color-white txt-shadow">
+            <div class="icon">
+              <i class="pe-7s-coffee pe-5x"></i>
+            </div>
+            <strong id="counter-clock" class="number">301</strong><br />
+            <span class="text">Participants</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="align-center color-white txt-shadow">
+            <div class="icon">
+              <i class="pe-7s-cup pe-5x"></i>
+            </div>
+            <strong id="counter-heart" class="number">2</strong><br />
+            <span class="text">Opportunity</span>
+          </div>
+        </div>
+      </div>
+    </center>
+    </div>
+  </section>
+ 
+<section id="service" class="home-section bg-white">
+     <div class="container-fluid bg-white">
+        <div class="embed-responsive embed-responsive-16by9" style="padding-top:10%;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mpvYHH0gofI?autoplay=1;rel=0&amp;controls=0&amp;showinfo=0" allow="picture-in-picture" allowfullscreen ></iframe>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section nopadd-bot color-light bg-gray text-center">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class=" glitchh h-bold f1" data-text="Contact us" >Contact us</h2>
+              <p><ul class="text-center" style="list-style-type:none;"> 
+                <li class="color-light"> Vineeta Garg:+919810868089 </li>
+                <li> Neeru Mittal :+919953657884 </li>
+                <li> Madhav Aggarwal :+918285908896 </li>
+                <li> Chitransh Srivastava :+918920692261</li>
+                <li> Ayush Bansal :+918368274303</li>
+
+              </ul></p>
+              <div class="divider-header"></div>
+              <p>Add your comments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://http-wartex-club.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+           </section>                  
+  <section class="bg-white" style="width:100%;height:40vh;background-size:cover;"></section>
+ 
+  <!-- /Section: contact -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+
+          <div class="text-center">
+            <a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
+
+            <div class="social-widget">
+              <ul class="team-social">
+                <li class="social-facebook"><a href="https://www.fb.com/teamwartex"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+
+            </div>
+            <p>&#169;  Wartex 2019</p>
+            <div class="credits">
+              
+
+              Made By Ayush Bansal and Chitransh Srivastava<br>
+           
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/slippry.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="js/morphext.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <script id="dsq-count-scr" src="//http-wartex-club.disqus.com/count.js" async></script>
+  
+
+</body>
+
+</html>

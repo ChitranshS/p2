@@ -1,0 +1,131 @@
+<section id="about" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">About</h2>
+              <div class="divider-header"></div>
+              <p>THE TEAM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<div class="row">
+    <div class="text-center">
+      <div class="container">
+
+
+        <div class="col-xs-6 col-sm-3 col-md-3">
+          <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.5s">
+            <div class="team-wrapper-overlay">
+              <h5>Mrs.Vineeta Garg</h5>
+              <p>Our Mentor </p>
+              
+            </div>
+            <img src="img/team/1_1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+          <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.5s">
+            <div class="team-wrapper-overlay">
+              <h5>Mrs.Neeru Mittal</h5>
+              <p>Our Mentor </p>
+              
+            </div>
+            <img src="img/team/1_2.jpg" alt="" />
+          </div>
+        </div>
+        
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.2s">
+              <div class="team-wrapper-overlay">
+                <h5>Utsav Jhamb</h5>
+                <p>PRESIDENT </p>
+                
+              </div>
+              <img src="img/team/4.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.8s">
+              <div class="team-wrapper-overlay">
+                <h5>Chitransh Srivastava</h5>
+                <p>WEB COORDINATOR </p>
+                </div>
+              <img src="img/team/2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+              <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team-wrapper-overlay">
+                  <h5>Ayush Bansal</h5>
+                  <p>WEB COORDINATOR </p>
+                  </div>
+                <img src="img/team/3a.jpg" alt="" class="img-responsive" />
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.8s">
+                  <div class="team-wrapper-overlay">
+                    <h5>Jineesh Gaur</h5>
+                    <p>Executive </p>
+                    </div>
+                  <img src="img/team/8.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.8s">
+                  <div class="team-wrapper-overlay">
+                    <h5>Rishabh Singh</h5>
+                    <p>Executive </p>
+                    </div>
+                  <img src="img/team/10.JPG" alt="" />
+                </div>
+              </div>
+          
+            <div class="col-xs-6 col-sm-3 col-md-3">
+              <div class="team-wrapper-big wow bounceInUp" data-wow-delay="1s">
+                <div class="team-wrapper-overlay">
+                  <h5>Madhav Agarwal</h5>
+                  <p>GFX COORDINATOR</p>
+                  
+                </div>
+                <img src="img/team/6_1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3" >
+              <div class="team-wrapper-big wow bounceInUp" data-wow-delay="1s" >
+                <div class="team-wrapper-overlay">
+                  <h5>Sarthak Sharma</h5>
+                  <p>GFX COORDINATOR</p>
+                  
+                </div>
+                <img src="img/team/7.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+              <div class="team-wrapper-big wow bounceInUp" data-wow-delay="1s">
+                <div class="team-wrapper-overlay">
+                  <h5>Nayan Gaur</h5>
+                  <p>VFX HEAD AND COORDINATOR</p>
+                  
+                </div>
+                <img src="img/team/5.JPG" alt="" />
+              </div>
+            </div>
+          
+         
+                
+              
+               
+                        
+       
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: about -->

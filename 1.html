@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+      @font-face{
+        font-family:quantify;
+        src:url('../fonts/Quantify.ttf');
+        font-style: normal;
+      }
+      @font-face{
+        font-family:cafe;
+        src:url('../fonts/cafe.ttf');
+        font-style: normal;
+      }
+      @font-face{
+        font-family:leixo;
+        src:url('../fonts/leixo.ttf');
+        font-style: normal;
+      }
+     ul{
+  font-family: quantify;
+}
+      h3.text-center{
+        font-family: pt sans;
+      }
+      h1.text-center{
+        font-family:leixo;
+      }
+      
+.glitch_1 {
+  position: relative;
+  margin: 0 auto;
+  color:black;
+  font-size: 80px;
+  font-family:quantify;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+.glitch_1::before, .glitch_1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background:linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  color: black;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch_1::before {
+  left: 7px;
+  text-shadow: 1px 0 green;
+  animation: glitch-effect_1 3s infinite linear alternate-reverse;
+}
+.glitch_1::after {
+  left: 3px;
+  text-shadow: -1px 0 red;
+  animation: glitch-effect_1 2s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes glitch-effect_1 {
+  0% {
+    clip: rect(98px, 9999px, 16px, 0);
+  }
+  5% {
+    clip: rect(15px, 9999px, 32px, 0);
+  }
+  10% {
+    clip: rect(22px, 9999px, 80px, 0);
+  }
+  15% {
+    clip: rect(28px, 9999px, 70px, 0);
+  }
+  20% {
+    clip: rect(92px, 9999px, 37px, 0);
+  }
+  25% {
+    clip: rect(23px, 9999px, 22px, 0);
+  }
+  30% {
+    clip: rect(21px, 9999px, 67px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 99px, 0);
+  }
+  40% {
+    clip: rect(94px, 9999px, 49px, 0);
+  }
+  45% {
+    clip: rect(57px, 9999px, 9px, 0);
+  }
+  50% {
+    clip: rect(99px, 9999px, 57px, 0);
+  }
+  55% {
+    clip: rect(42px, 9999px, 14px, 0);
+  }
+  60% {
+    clip: rect(79px, 9999px, 81px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(3px, 9999px, 21px, 0);
+  }
+  75% {
+    clip: rect(94px, 9999px, 28px, 0);
+  }
+  80% {
+    clip: rect(11px, 9999px, 78px, 0);
+  }
+  85% {
+    clip: rect(65px, 9999px, 1px, 0);
+  }
+  90% {
+    clip: rect(74px, 9999px, 19px, 0);
+  }
+  95% {
+    clip: rect(94px, 9999px, 47px, 0);
+  }
+  100% {
+    clip: rect(54px, 9999px, 65px, 0);
+  }
+}
+
+@keyframes glitch-effect_1 {
+  0% {
+    clip: rect(98px, 9999px, 16px, 0);
+  }
+  5% {
+    clip: rect(15px, 9999px, 32px, 0);
+  }
+  10% {
+    clip: rect(22px, 9999px, 80px, 0);
+  }
+  15% {
+    clip: rect(28px, 9999px, 70px, 0);
+  }
+  20% {
+    clip: rect(92px, 9999px, 37px, 0);
+  }
+  25% {
+    clip: rect(23px, 9999px, 22px, 0);
+  }
+  30% {
+    clip: rect(21px, 9999px, 67px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 99px, 0);
+  }
+  40% {
+    clip: rect(94px, 9999px, 49px, 0);
+  }
+  45% {
+    clip: rect(57px, 9999px, 9px, 0);
+  }
+  50% {
+    clip: rect(99px, 9999px, 57px, 0);
+  }
+  55% {
+    clip: rect(42px, 9999px, 14px, 0);
+  }
+  60% {
+    clip: rect(79px, 9999px, 81px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(3px, 9999px, 21px, 0);
+  }
+  75% {
+    clip: rect(94px, 9999px, 28px, 0);
+  }
+  80% {
+    clip: rect(11px, 9999px, 78px, 0);
+  }
+  85% {
+    clip: rect(65px, 9999px, 1px, 0);
+  }
+  90% {
+    clip: rect(74px, 9999px, 19px, 0);
+  }
+  95% {
+    clip: rect(94px, 9999px, 47px, 0);
+  }
+  100% {
+    clip: rect(54px, 9999px, 65px, 0);
+  }
+}
+
+  </style>
+  <title>Designers At Desks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid text-uppercase">
+    <h1 class="glitch_1 text-center" data-text="Designers at desks">Designers at desks</h1>
+    <ul style="list-style-type: none; font-size: 20px; color: black;">
+      <li><h2>Classes: IX – XIi</h2></li>
+      <li><h2>Participants per team: 2</h2></li>
+      <li><h2>SOFTWARE: SUBLIME AND BRACKETS</h2></li>
+      <li>>PARTICIPANTS HAVE TO CREATE A WEBSITE USING JQUERY, JAVAscript, HTML AND CSS</li>
+      <li>>TOPICS WILL BE DISCLOSED ON THE SPOT</li>
+      <li>> Participants have to create a website on topic web development using html, css, javascript, jquery for prelims round</li>
+      <li>> <a href="https://driveuploader.com/upload/37iGzWB31I/" target="_blank">Submit Prelims</a> </li>
+      <li>> Send the prelims to <ol>
+          <li>chitransh0210@gmail.com</li>
+          <li>ayushbofficial@gmail.com</li>
+      </ol></li>
+      <li>> Any kind of unfair means and cheating will lead to disqualification</li>
+    </ul>
+    
+    <h3 class="text-center">EVENT HEAD: Chitransh Srivatava <br>
+        CONTACT: 89206 92261
+        </h3>
+        <h3 class="text-center">EVENT HEAD: Ayush Bansal <br>
+        CONTACT: 83682 74303 
+        </h3>
+   
+    
+        
+
+</div>
+
+</body>
+</html>
